@@ -21,7 +21,7 @@ export default function Home() {
         <img src="/piffy.svg" alt="Piffy" width={210} />
 
         <Heading size="2xl" lineHeight="shorter" marginTop={16}>
-          Log in to the <br /> platform
+          Log In To Jimmy's <br /> Platform
         </Heading>
       </Flex>
 
@@ -46,7 +46,7 @@ export default function Home() {
           fontWeight="bold"
           _hover={{ color: 'blue.600' }}
         >
-          I forgot my password
+          Forgot Password ?
         </Link>
 
         <Button
@@ -60,7 +60,7 @@ export default function Home() {
         </Button>
 
         <Text textAlign="center" fontSize="sm" color="gray.300" marginTop={6}>
-          Don't have an account?{' '}
+          Don't Have An Account Yet ? {' '}
           <Link
             color="blue.500"
             fontWeight="bold"
@@ -73,7 +73,7 @@ export default function Home() {
         <Divider />
 
         <Flex alignItems="center">
-          <Text fontSize="sm">Or sign in with</Text>
+          <Text fontSize="sm">Or Sign In With </Text>
           <Button
             height="50px"
             flex="1"
@@ -82,7 +82,7 @@ export default function Home() {
             borderRadius="sm"
             _hover={{ backgroundColor: 'blue.600' }}
           >
-            FACEBOOK
+            Google
           </Button>
         </Flex>
       </Flex>
